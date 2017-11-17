@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fragment Demo</string>
+    <string-array name="location">
+        <item>London</item>
+        <item>Paris</item>
+        <item>Rome></item>
+        <item>New York</item>
+    </string-array>
+</resources>
