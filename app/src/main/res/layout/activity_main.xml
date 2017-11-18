@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LInearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.fragmentdemo.MainActivity">
 
     <fragment
         android:id="@+id/topFragment"
-        android:name="com.example.fragmentdemo.ActivityFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_weight="1"/>
+        android:name="com.example.fragmentdemo.TopFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"/>
 
     <fragment
-        android:id="@+id/locations"
-        android:name="com.example.fragmentdemo.LocationFragment"
+        android:id="@+id/middleFragment"
+        android:name="com.example.fragmentdemo.MiddleFragment"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_below="@id/topFragment"
-        android:layout_centerHorizontal="true"
-        android:layout_weight="2" />
+        android:layout_height="0px"
+        android:layout_weight="2"/>
 
-</LInearLayout>
+    <fragment
+        android:id="@+id/bottomFragment"
+        android:name="com.example.fragmentdemo.BottomFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+</LinearLayout>

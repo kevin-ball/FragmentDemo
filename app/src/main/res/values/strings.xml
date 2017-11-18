@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">Fragment Demo</string>
-    <string-array name="location">
+    <string name="ListQuestion">Where do you want to go today?</string>
+    <string name="BadChoiceLocation">Foothill College</string>
+    <string-array name="locations">
+        <item>San Francisco</item>
+        <item>New York City</item>
         <item>London</item>
         <item>Paris</item>
-        <item>Rome></item>
-        <item>New York</item>
+        <item>Syndney</item>
+        <item>Hawaii</item>
+        <item>Beijing</item>
+        <item>Foothill College</item>
     </string-array>
 </resources>
